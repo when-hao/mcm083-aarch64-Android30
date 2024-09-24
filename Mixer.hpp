@@ -25,7 +25,7 @@
 #define _MIXER_HPP_
 
 //#include <emmintrin.h>
-#include <sse2neon.h>
+#include "sse2neon.h"
 #include "Util.hpp"
 #include "Compressor.hpp"
 

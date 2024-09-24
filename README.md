@@ -1,3 +1,11 @@
+我的mcm083压缩，在Android12（api30，aarch64）的termux下修改后可编译版本
+===
+编译的命令
+```shell
+g++ -DNDEBUG -O3 -fomit-frame-pointer -msse2 -std=c++0x -D_FILE_OFFSET_BITS=64 -o mcm CM.cpp Archive.cpp Huffman.cpp MCM.cpp Memory.cpp Util.cpp Compressor.cpp LZ.cpp -lpthread -target aarch64-linux-android30 -march=armv8-a+fp+simd+crypto+crc
+```
+
+
 mcm compressor: context mixing + lzp
 ===================================
 

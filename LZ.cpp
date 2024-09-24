@@ -36,7 +36,7 @@
 #endif
 
 //#include <mmintrin.h>
-#include <sse2neon.h>
+#include "sse2neon.h"
 
 // Standard LZW.
 template <bool use_range = true>

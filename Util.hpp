@@ -27,7 +27,7 @@
 #include <cassert>
 #include <ctime>
 //#include <emmintrin.h>
-#include <sse2neon.h>
+#include "sse2neon.h"
 #include <iostream>
 //#include <mmintrin.h>
 #include <mutex>
