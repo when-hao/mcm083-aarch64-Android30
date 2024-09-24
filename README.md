@@ -4,7 +4,7 @@
 ```shell
 g++ -DNDEBUG -O3 -fomit-frame-pointer -msse2 -std=c++0x -D_FILE_OFFSET_BITS=64 -o mcm CM.cpp Archive.cpp Huffman.cpp MCM.cpp Memory.cpp Util.cpp Compressor.cpp LZ.cpp -lpthread -target aarch64-linux-android30 -march=armv8-a+fp+simd+crypto+crc
 ```
-
+[点击下载](https://github.com/when-hao/mcm083-aarch64-Android30/releases/download/0.0/mcm)
 
 mcm compressor: context mixing + lzp
 ===================================
